@@ -9,6 +9,7 @@ export function ContactForm(){
         // console.log('submit');
         const response = await sendEmail();
         console.log( response );
+        alert('메일이 전송 되었습니다.')
         return false;
     }
     return (
